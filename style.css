@@ -64,4 +64,21 @@ form button:hover {
   background-color: #1ebe57;
   cursor: pointer;
 }
+.order-button {
+  display: inline-block;
+  background-color: #8b0000;
+  color: white;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #a60000;
+}
 
