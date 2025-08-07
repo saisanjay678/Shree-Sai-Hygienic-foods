@@ -4,21 +4,43 @@ body {
   line-height: 1.6;
   color: #333;
 }
-
-h1, h2 {
-  color: #007b5e;
+body {
+  background-color: #fefbe9; /* soft cream */
+  /* or */
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+header h1 {
+  color: #8b0000;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 form input, form textarea {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
   margin-bottom: 10px;
+  font-size: 16px;
 }
-button {
-  background-color: #007b5e;
+
+form button {
+  background-color: #2d6a4f;
   color: white;
-  padding: 10px 20px;
   border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
 }
+form button:hover {
+  background-color: #1b4332;
+}
+
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
